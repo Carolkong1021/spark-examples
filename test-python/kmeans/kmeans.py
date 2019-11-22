@@ -1,6 +1,7 @@
 from __future__ import print_function
 
 # $example on$
+import numpy as np
 from pyspark.ml.clustering import KMeans
 from pyspark.ml.evaluation import ClusteringEvaluator
 # $example off$
